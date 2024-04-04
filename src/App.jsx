@@ -15,16 +15,6 @@ function App() {
   function startPreview() {
     let index = 0;
     intervalIdRef.current = setInterval(() => {
-      // if(isChanging == false){
-      //   clearInterval(intervalId);
-      //   return 
-      // } 
-      // if (index === colors.length) {
-      //   index = 0
-      //   clearInterval(intervalId);
-      //   SetIsChanging(false);
-      //   return;
-      // }
       changeBgColor(colors[index])
       index = parseInt((index + 1) % colors.length); // Update index and loop back to 0 if it reaches the end
     }, 1000);
