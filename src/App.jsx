@@ -42,7 +42,7 @@ function App() {
               )
             })}
             <button onClick={handlePreviewClick} style={{ backgroundColor: "#FF512F" }} className='outline-none font-bold px-4 py-1 rounded-full text-zinc-50 shadow-lg'>
-              {isChanging ? 'stop' : 'preview'}
+              {isChanging ? '.stop.' : 'preview'}
               </button>
           </div>
         </div>
