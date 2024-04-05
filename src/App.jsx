@@ -1,7 +1,5 @@
 import { useState,useRef } from 'react'
 
-
-
 function App() {
   const [color, setColor] = useState('olive');
   const [isChanging, SetIsChanging] = useState(false);
